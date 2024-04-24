@@ -1,0 +1,40 @@
+body {
+    background-image: url('/img/pizaron.png');
+    background-size: cover; /* O 'contain', 'auto', etc. */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+}
+
+.Contenedor-Tarjetas{
+    display: flex; /* Usar flexbox para alinear elementos */
+    justify-content: center; /* Centrará horizontalmente */
+    align-items: center; /* Centrará verticalmente */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px; /* Espacio interno */
+    height: 100vh; /* Altura de la ventana del navegador */
+
+}
+.Tarjeta{
+    background-color: white; /* Color de fondo */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Sombra para darle efecto de tarjeta */
+    padding: 20px; /* Espacio interno */
+    width: 200px; /* Ancho de cada tarjeta */
+    text-align: center; /* Texto centrado */
+}
+.Img1{
+    width: 50%;
+    height: 50%;
+}
+.Button{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ce967b;
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+.Button:hover{
+    background-color: #ebad8d;
+
+}
